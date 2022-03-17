@@ -7,10 +7,10 @@ Created on Wed Mar 14 13:21:48 2022
 
 ####Evelyn Baranski
 # 3/14/22
-#assingment 7: Black Scholes Options
 
- #this file, assignment 7 task 2 is creating client applications
- #using black scholes
+
+ #this file is creating client applications
+ #using the black scholes options class
  
 
 
@@ -26,10 +26,10 @@ def generate_option_value_table(s, x, t, sigma, rf, div):
     with respect to the change in the underlying stock price.
     Will require all parameters from BSOption class.
     
-    Creates two option objects call and put. Inside function
+    Creates two option objects call and put. Inside the function
     there is a loop iterating over a range of possible prices
-    at each price changing the objects stock price and using 
-    methods to obtain option's value and delta"""
+    and changing the underlying stock price. Printout
+    uses methods to obtain the option's value and delta"""
     
     
     #creating variables for call and put
