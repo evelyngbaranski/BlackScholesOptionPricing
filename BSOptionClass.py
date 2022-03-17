@@ -7,9 +7,8 @@ Created on Mon Mar 14 11:12:19 2022
 
 ####Evelyn Baranski
 # 3/14/22
-#assingment 7: Black Scholes Options
 
- #this file, assignment 7 task 1 is creating an options class
+ #this file is creating an options class, with European call and put options subclasses
 
 import math
 from scipy.stats import norm
